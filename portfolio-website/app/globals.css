@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: white;
+    --foreground: black;
+  }
+}
+
+/* Default Light Mode Styles */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode Styles */
+.dark body {
+  background-color: black; /* Dark background */
+  color: #e2e8f0; /* Light text */
+}
+
+.dark darkNav {
+  background-color: #1a202c; /* Dark background */
+  color: #e2e8f0; /* Light text */
+}
+
+/*Mobile Responsive*/
+
+/* Mobile-specific adjustments (using media queries) */
+@media (max-width: 400px) {
+  /* Small screens (e.g., phones) */
+  .responsive-box {
+    margin-left: -80px;
+  }
+  .responsive-font-introduction {
+    font-size: 20px;
+    width: 260px;
+    text-align: left;
+    margin-top: 40px;
+  }
+  .responsive-contactIcons {
+    margin-left: -80px;
+  }
+}
