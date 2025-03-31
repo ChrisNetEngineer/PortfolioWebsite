@@ -30,12 +30,12 @@ export default function Nav() {
           <ul className="hidden md:flex space-x-4 darkNav">
             <li>
               <a href="#" className="hover:text-gray-600 font-medium">
-                Internship
+                About
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-gray-600 font-medium">
-                About
+                Internship
               </a>
             </li>
             <li>
@@ -65,7 +65,7 @@ export default function Nav() {
                 href="#"
                 className="block py-2 px-4  hover:bg-gray-200 font-medium"
               >
-                Internship
+                About
               </a>
             </li>
             <li>
@@ -73,7 +73,7 @@ export default function Nav() {
                 href="#"
                 className="block py-2 px-4  hover:bg-gray-200 font-medium"
               >
-                About
+                Internship
               </a>
             </li>
             <li>
