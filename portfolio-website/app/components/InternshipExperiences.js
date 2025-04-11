@@ -9,7 +9,7 @@ export default function InternshipExperiences() {
   };
 
   return (
-    <div className="">
+    <div className="responsive-InternshipExperienceSection">
       <h2 className="mt-20 ml-30 font-bold text-3xl">Internship Experiences</h2>
       <nav className="ml-30 mt-7">
         <ul className="space-x-8">
@@ -33,14 +33,19 @@ export default function InternshipExperiences() {
           </button>
         </ul>
       </nav>
-      <div className="content ml-33 mt-5 mb-100">
+      <div className="content ml-33 mt-5  responsive-jobDescriptionHeader">
         {activeTab === "tab1" && (
-          <div className="grid grid-cols-2">
-            <div className="w-150">
+          <div className="">
+            <div className="">
+              <div>
               <h2 className="text-2xl font-bold">
                 Cybersecurity Engineer @ Hummingbird BioScience
               </h2>
+              </div>
+              <div>
               <h3 className="text-xl font-bold">May 2024 - Aug 2024</h3>
+              </div>
+              <div className="space-y-1 mt-6">
               <p>
                 1. Review on security alerts and mitigate discovered
                 vulnerabilities
@@ -67,18 +72,19 @@ export default function InternshipExperiences() {
                 seamless & security principles in mind (Etc. L3 Roaming &
                 Logical-gapping from production network)
               </p>
+              </div>
             </div>
             <div>
               <img
                 src="./HMBD.png"
-                className="max-w-md rounded-lg shadow-md object-cover mx-auto my-4  "
+                className="max-w-md rounded-lg shadow-md object-cover mx-180 -my-70  "
               />
             </div>
           </div>
         )}
         {activeTab === "tab2" && (
-          <div className="grid grid-cols-2">
-            <div className="w-150">
+          <div className="">
+            <div className="w-190">
               <h2 className="text-2xl font-bold">
                 Cybersecurity Engineer @ DSBJ
               </h2>
@@ -116,14 +122,14 @@ export default function InternshipExperiences() {
             <div>
               <img
                 src="./dsbj.jpg"
-                className="max-w-md rounded-lg shadow-md object-cover mx-auto my-4 b border-gray-200"
+                className="max-w-md rounded-lg shadow-md object-cover mx-210 -my-87 b border-gray-200"
               />
             </div>
           </div>
         )}
         {activeTab === "tab3" && (
-          <div className="grid grid-cols-2">
-            <div className="w-150">
+          <div className="">
+            <div className="w-190">
               <h2 className="text-2xl font-bold">
                 Cybersecurity Engineer @ Insightz Technology
               </h2>
@@ -157,7 +163,7 @@ export default function InternshipExperiences() {
             <div className="ml-10 w-90">
               <img
                 src="./InsightzTech.jpg"
-                className=" rounded-lg shadow-md object-cover mx-auto my-4 "
+                className=" rounded-lg shadow-md object-cover mx-180 -my-70 "
               />
             </div>
           </div>

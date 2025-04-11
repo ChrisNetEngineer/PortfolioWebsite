@@ -53,4 +53,18 @@ body {
   .responsive-contactIcons {
     margin-left: -80px;
   }
+
+  .responsive-InternshipExperienceSection{
+    margin-left: -90px;
+    width: 4  60px;
+  }
+
+  .responsive-jobDescriptionHeader{
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 20px;
+    width: 358px;
+  } 
+  
+
 }
