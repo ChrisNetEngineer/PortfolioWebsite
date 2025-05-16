@@ -7,7 +7,7 @@ export default function FrontPage() {
       <div className="font-light text-xl">
         <p>
           I am a <span className="font-bold">Cybersecurity Undergraduate</span>{" "}
-          currently studying SIT's Information Security. I have industry experiences in{" "}
+          currently studying SIT&apos;s Information Security. I have industry experiences in{" "}
           <span className="underline">
             Network Security, Incident Response & Vulnerability Assessments
           </span>

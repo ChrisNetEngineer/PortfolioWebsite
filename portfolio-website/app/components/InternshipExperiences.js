@@ -63,12 +63,12 @@ export default function InternshipExperiences() {
                 provision
               </p>
               <p>
-                5. Migrated over 50 Alcatel Stellar APs to the new site's OV2500
+                5. Migrated over 50 Alcatel Stellar APs to the new site&apos;s OV2500
                 NMS, performed firmware upgrade and security hardened with best
                 security practices
               </p>
               <p>
-                6. Designed and built bio-science lab's wireless network with
+                6. Designed and built bio-science lab&apos;s wireless network with
                 seamless & security principles in mind (Etc. L3 Roaming &
                 Logical-gapping from production network)
               </p>
@@ -91,7 +91,7 @@ export default function InternshipExperiences() {
               <h3 className="text-xl font-bold">May 2023 - Oct 2024</h3>
               <p>
                 1. Performed vulnerability assessment using Nessus & patching
-                for both on-premise and Alibaba cloud infrastructures' security
+                for both on-premise and Alibaba cloud infrastructures&apos; security
                 loopholes
               </p>
               <p>
@@ -146,8 +146,8 @@ export default function InternshipExperiences() {
                 monitoring & maintained Rapid7 SIEM
               </p>
               <p>
-                3. Conducted vulnerability assessment with Rapid7's InsightVM &
-                patching for client's production server
+                3. Conducted vulnerability assessment with Rapid7&apos;s InsightVM &
+                patching for client&apos;s production server
               </p>
               <p>
                 4. Server hardening & patching for Windows & Linux server with
