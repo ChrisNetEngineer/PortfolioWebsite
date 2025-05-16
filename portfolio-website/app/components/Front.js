@@ -1,13 +1,13 @@
 export default function FrontPage() {
   return (
-    <div className="responsive-box">
-      <div className="mt-16 ml-30 font-extrabold text-4xl ">
+    <div className="ml-4 mt-10 w-72 sm:w-150 lg:ml-10 lg:w-200 2xl:w-200">
+      <div className="mb-7 font-extrabold text-3xl ">
         <h1>Bonjour！</h1>
       </div>
-      <div className="mt-6 ml-30 font-extralight text-3xl w-200 responsive-font-introduction">
+      <div className="font-light text-xl">
         <p>
           I am a <span className="font-bold">Cybersecurity Undergraduate</span>{" "}
-          with industry experiences in{" "}
+          currently studying SIT's Information Security. I have industry experiences in{" "}
           <span className="underline">
             Network Security, Incident Response & Vulnerability Assessments
           </span>

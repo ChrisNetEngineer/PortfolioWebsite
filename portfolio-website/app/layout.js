@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Viewport } from "next";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,12 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "ChrisNetEngineer's Portfolio website",
   description: "A portfolio website",
+  viewport: 'width=device-width, initial-scale=1.0',
 };
 
-export const viewport = {
-  width: "device-width",
-  initialScale: 1.0,
-};
 
 export default function RootLayout({ children }) {
   return (

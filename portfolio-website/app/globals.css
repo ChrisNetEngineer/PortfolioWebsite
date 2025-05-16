@@ -36,35 +36,7 @@ body {
   color: #e2e8f0; /* Light text */
 }
 
-/*Mobile Responsive*/
 
-/* Mobile-specific adjustments (using media queries) */
-@media (max-width: 400px) {
-  /* Small screens (e.g., phones) */
-  .responsive-box {
-    margin-left: -80px;
-  }
-  .responsive-font-introduction {
-    font-size: 20px;
-    width: 260px;
-    text-align: left;
-    margin-top: 40px;
-  }
-  .responsive-contactIcons {
-    margin-left: -80px;
-  }
 
-  .responsive-InternshipExperienceSection{
-    margin-left: -90px;
-    width: 4  60px;
-  }
 
-  .responsive-jobDescriptionHeader{
-    margin-top: 20px;
-    margin-left: 110px;
-    font-size: 20px;
-    width: 358px;
-  } 
-  
 
-}

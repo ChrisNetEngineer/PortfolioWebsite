@@ -9,9 +9,9 @@ export default function InternshipExperiences() {
   };
 
   return (
-    <div className="responsive-InternshipExperienceSection">
-      <h2 className="mt-20 ml-30 font-bold text-3xl">Internship Experiences</h2>
-      <nav className="ml-30 mt-7">
+    <div className="lg:ml-5">
+      <h2 className="mt-20 ml-5 font-bold text-3xl">Internship Experiences</h2>
+      <nav className="ml-5 mt-5">
         <ul className="space-x-8">
           <button
             className="text-white class=text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
@@ -33,9 +33,9 @@ export default function InternshipExperiences() {
           </button>
         </ul>
       </nav>
-      <div className="content ml-33 mt-5  responsive-jobDescriptionHeader">
+      <div className="content ">
         {activeTab === "tab1" && (
-          <div className="">
+          <div className="ml-5 mt-5">
             <div className="">
               <div>
               <h2 className="text-2xl font-bold">
@@ -74,17 +74,17 @@ export default function InternshipExperiences() {
               </p>
               </div>
             </div>
-            <div>
+            {/* <div>
               <img
                 src="./HMBD.png"
                 className="max-w-md rounded-lg shadow-md object-cover mx-180 -my-70  "
               />
-            </div>
+            </div> */}
           </div>
         )}
         {activeTab === "tab2" && (
-          <div className="">
-            <div className="w-190">
+          <div className="ml-4 mt-5">
+            <div className="">
               <h2 className="text-2xl font-bold">
                 Cybersecurity Engineer @ DSBJ
               </h2>
@@ -119,19 +119,22 @@ export default function InternshipExperiences() {
                 security practices (Etc. Link Aggregation, 802.1X, NAC)
               </p>
             </div>
-            <div>
+            {/* <div>
               <img
                 src="./dsbj.jpg"
                 className="max-w-md rounded-lg shadow-md object-cover mx-210 -my-87 b border-gray-200"
               />
-            </div>
+            </div> */}
           </div>
         )}
         {activeTab === "tab3" && (
-          <div className="">
-            <div className="w-190">
+          <div className="ml-5 mt-5">
+            <div className="">
               <h2 className="text-2xl font-bold">
-                Cybersecurity Engineer @ Insightz Technology
+                Cybersecurity Engineer @
+              </h2>
+              <h2 className="text-2xl font-bold">
+                Insightz Technology
               </h2>
               <h3 className="text-xl font-bold">Aug 2020 - March 2021</h3>
               <p>
@@ -160,12 +163,12 @@ export default function InternshipExperiences() {
                 availability
               </p>
             </div>
-            <div className="ml-10 w-90">
+            {/* <div className="ml-10 w-90">
               <img
                 src="./InsightzTech.jpg"
                 className=" rounded-lg shadow-md object-cover mx-180 -my-70 "
               />
-            </div>
+            </div> */}
           </div>
         )}
       </div>

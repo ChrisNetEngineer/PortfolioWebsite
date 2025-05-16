@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 export default function LinkWithMeIcon() {
   return (
-    <div className="mt-10 ml-30 ">
+    <div className="mt-10 ml-6 lg:ml-10 ">
       <nav>
-        <ul className="flex space-x-7 responsive-contactIcons">
+        <ul className="flex space-x-7">
           <li>
             <Link href="https://github.com/ChrisNetEngineer">
               <FaGithub size={32} className="black hover:text-gray-600" />

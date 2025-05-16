@@ -13,11 +13,11 @@ export default function Nav() {
     <div className="mt">
       <nav className="darkNav p-4 m">
         <div className="mt-8 container mx-auto flex justify-between items-center">
-          <div className=" font-bold text-xl">ChrisNetEngineer</div>
+          <div className=" ml-3 -mt-3 font-bold text-2xl">ChrisNetEngineer</div>
 
           <div className="md:hidden">
             <button onClick={toggleMenu} className="">
-              <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
+              <svg className="h-8 w-8 -ml-12 -mt-5 fill-current" viewBox="0 0 15 20">
                 <path
                   fillRule="evenodd"
                   clipRule="evenodd"
